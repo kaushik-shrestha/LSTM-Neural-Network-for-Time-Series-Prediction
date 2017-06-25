@@ -16,6 +16,7 @@ This is to make it available to run natively on Windows TensorFlow installations
 * Numpy 1.12.0
 * Keras 1.2.2
 * Matplotlib 2.0.0
+* pydot and graphviz (For creating visualization of the model into model.pnng file)
 
 Output for sin wave sequential prediction:
 
