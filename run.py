@@ -45,7 +45,7 @@ if __name__ == '__main__':
         X_train,
         y_train,
         batch_size=512,
-        nb_epoch=epochs,
+        epochs=epochs,
         validation_split=0.05)
 
     predictions = lstm.predict_sequences_multiple(model, X_test, seq_len, 50)
